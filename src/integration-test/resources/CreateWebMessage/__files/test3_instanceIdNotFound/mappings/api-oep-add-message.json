@@ -1,0 +1,16 @@
+{
+  "name": "api-oep",
+  "request": {
+    "method": "POST",
+    "url": "/oepMock",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//flowInstanceID[text()=356435]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "test3_instanceIdNotFound/response/addMessageResponse.xml"
+  }
+}

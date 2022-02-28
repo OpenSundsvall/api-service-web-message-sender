@@ -1,0 +1,11 @@
+{
+  "name": "api-oep",
+  "request": {
+    "method": "POST",
+    "url": "/api-oep"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "addMessageResponse.xml"
+  }
+}

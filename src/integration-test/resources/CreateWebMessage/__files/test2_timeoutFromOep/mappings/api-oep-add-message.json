@@ -1,0 +1,16 @@
+{
+  "name": "api-oep",
+  "request": {
+    "method": "POST",
+    "url": "/oepMock",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//flowInstanceID[text()=356434]"
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "fixedDelayMilliseconds": 1100
+  }
+}
